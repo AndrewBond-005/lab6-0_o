@@ -6,8 +6,11 @@ import models.Worker;
 import util.Request;
 import util.Response;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 
 public class PrintFieldAscendingStatus extends Command {
@@ -25,27 +28,15 @@ public class PrintFieldAscendingStatus extends Command {
         if (request.args() != null) {
             return new Response("Введен лишний аргумент", null, 450);
         }
-        console.println("значения поля status всех элементов в порядке возрастания: ");
-
-        Comparator<Worker> comparator = new StatusComparator();
-        TreeSet<Worker> workers = new TreeSet<>(comparator);
-        workers.addAll(collectionManager.getCollection());
-        for (Worker worker : workers) {
-            console.println(worker.getStatus());
+        var collection = collectionManager.getCollection();
+        if (collection.isEmpty()) {
+            return new Response("Коллекция пуста", null, 200);
         }
-        //var collection = collectionManager.getCollection();
-//        for (Worker worker : collection) {
-//            console.println(worker.getStatus());
-//        }
-        return null;
+        return new Response("Вот содержмое коллекции:" + '\n',
+                new ArrayList<>(collectionManager.getCollection()).stream()
+                        .sorted(Comparator.comparing(Worker::getId))
+                        .sorted(Comparator.comparing(Worker::getId))
+                        .collect(Collectors.toList()), 1001);
     }
 
-    public static class StatusComparator implements Comparator<Worker> {
-
-        @Override
-        public int compare(Worker o1, Worker o2) {
-            if (o1.getStatus() != o2.getStatus()) return o1.getStatus().ordinal() - o2.getStatus().ordinal();
-            return o1.compareTo(o2);
-        }
-    }
 }

@@ -18,18 +18,9 @@ public class Main {
 
         var console = new StandardConsole();
         int clientPort = 10000 + (int) (Math.random() * 40001);
-        console.println("Введите порт сервера: ");
+//
         int port=1200;
-        while (true) {
-            try {
-                var line = console.readln().trim();
-                port = Integer.parseInt(line);
-                break;
-            } catch (NumberFormatException e) {
-                console.printError("Это не число");
-                continue;
-            }
-        }
+//
         var udpManager = new UDPManager(new ReceivingManager(), new SendingManager(), port, clientPort);
         Runtime.getRuntime().addShutdownHook(new Terminate(udpManager));
         CommandManager commandManager = new CommandManager();

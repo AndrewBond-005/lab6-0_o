@@ -32,7 +32,7 @@ public class Help extends Command {
             str.append(entry.getKey()).append('\t').append('\t')
                     .append(entry.getValue().getDescription()).append('\n');
         }
-        System.out.println(str);
+
         // send(com);
         // Map<String, Command> commands = commandManager.getCommands();
 //        for (Command command : commands.values()) {

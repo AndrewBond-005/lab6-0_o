@@ -1,8 +1,11 @@
 package and.lab6.client.commands;
 
+import and.lab6.client.commands.PrintFieldAscendingStatus.StatusComparator;
 import and.lab6.client.utility.Console;
-import models.Position;
 import models.Worker;
+
+import java.util.Comparator;
+import java.util.List;
 
 
 /**
@@ -19,5 +22,22 @@ public class PrintFieldAscendingStatus extends Command {
     @Override
     public Object validate(String arguments, boolean scriprtMode) {
         return true;
+    }
+
+    public void execute(List<Worker> workers) {;
+        Comparator<Worker> comparator = new StatusComparator();
+        workers.sort(comparator);
+        for(Worker w:workers){
+            console.println(w.getStatus());
+        }
+    }
+
+    public static class StatusComparator implements Comparator<Worker> {
+
+        @Override
+        public int compare(Worker o1, Worker o2) {
+            if (o1.getStatus() != o2.getStatus()) return o1.getStatus().ordinal() - o2.getStatus().ordinal();
+            return o1.compareTo(o2);
+        }
     }
 }

@@ -19,7 +19,7 @@ public class RemoveById extends Command {
     }
 
     @Override
-    public Object validate(String arguments, boolean scriprtMode) {
+    public Object validate(String arguments, boolean scriptMode) {
         try {
             Integer.parseInt(arguments.trim());
             return true;

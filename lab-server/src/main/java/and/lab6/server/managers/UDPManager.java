@@ -1,13 +1,13 @@
 package and.lab6.server.managers;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import util.ProgramStatus;
-import util.Response;
 
 import java.io.IOException;
 import java.net.DatagramSocket;
 import java.net.InetSocketAddress;
 import java.net.SocketException;
-import java.nio.channels.DatagramChannel;
 import java.util.HashSet;
 
 public class UDPManager {
@@ -15,7 +15,9 @@ public class UDPManager {
     private ReceivingManager receivingManager = new ReceivingManager();
     private SendingManager sendingManager = new SendingManager();
     private HashSet<InetSocketAddress> sessions = new HashSet<>();
-    private DatagramSocket socket=null;
+    private DatagramSocket socket = null;
+    private static final Logger logger = LogManager.getLogger(UDPManager.class);
+
 
 
     /**
@@ -27,14 +29,22 @@ public class UDPManager {
         return port;
     }
 
+    public HashSet<InetSocketAddress> getSessions() {
+        return sessions;
+    }
+
+    public void setSessions(HashSet<InetSocketAddress> sessions) {
+        this.sessions = sessions;
+    }
+
     public UDPManager(int port, SendingManager sendingManager, ReceivingManager receivingManager) throws IOException {
         this.port = port;
         this.sendingManager = sendingManager;
         this.receivingManager = receivingManager;
-        try{
-            this.socket=new DatagramSocket(port);
-        }catch (SocketException e) {
-            System.out.println("Ошибка при подключении порта");
+        try {
+            this.socket = new DatagramSocket(port);
+        } catch (SocketException e) {
+            logger.error("Ошибка при подключении порта");
         }
     }
 
@@ -43,12 +53,20 @@ public class UDPManager {
     }
 
     public void send(Object object) {
-        sendingManager.send(port, this.receivingManager.lastReceivedAddress, object,socket);
+        try {
+            sendingManager.send(port, this.receivingManager.lastReceivedAddress, object, socket);
+        } catch (Exception ignored) {
+        }
     }
 
     public void sendAll(Object object) {
-        for (InetSocketAddress address : sessions)
-            sendingManager.send(port, address, object,socket);
+        if (sessions != null)
+            for (InetSocketAddress address : sessions) {
+                try {
+                    sendingManager.send(port, address, object, socket);
+                } catch (Exception ignored) {
+                }
+            }
     }
 
 
@@ -58,64 +76,27 @@ public class UDPManager {
     }
 
     public void addAddress(InetSocketAddress address) {
+        if (sessions == null) {
+            sessions = new HashSet<>();
+        }
         sessions.add(address);
     }
 
     public void deleteAddress(InetSocketAddress address) {
-        sessions.remove(address);
+        if (sessions != null)
+            sessions.remove(address);
     }
 
     public void somethingWithClient(ProgramStatus programStatus, CommandManager commandManager) {
         if (programStatus == ProgramStatus.CLIENT_CONNECTS) {
             addAddress(receivingManager.lastReceivedAddress);
-            System.out.println("подключился новый клиент с " + receivingManager.lastReceivedAddress);
+            logger.info("подключился новый клиент с {}", receivingManager.lastReceivedAddress);
             send(ProgramStatus.SERVER_CONNECTS);
         }
         if (programStatus == ProgramStatus.CLIENT_DISCONNECTS) {
             deleteAddress(receivingManager.lastReceivedAddress);
-            System.out.println("клиент с адреса " + receivingManager.lastReceivedAddress + " отключился от сервера");
+            logger.info("клиент с адреса {} отключился от сервера", receivingManager.lastReceivedAddress);
         }
     }
+
 }
-//package and.lab6.client.managers;
-//
-//import java.net.DatagramSocket;
-//import java.net.SocketException;
-//
-//public class UDPManager {
-//    ReceivingManager receivingManager;
-//    SendingManager sendingManager = new SendingManager();
-//    private int serverPort = 465259;
-//    private int clientPort = 4652;
-//    private DatagramSocket socket;
-//
-//    public UDPManager(ReceivingManager receivingManager, SendingManager sendingManager, int serverPort, int clientPort) {
-//        this.receivingManager = receivingManager;
-//        this.sendingManager = sendingManager;
-//        this.serverPort = serverPort;
-//        this.clientPort = clientPort;
-//        try {
-//            this.socket = new DatagramSocket();
-//        } catch (SocketException e) {
-//            throw new RuntimeException(e);
-//        }
-//
-//    }
-//
-//    public void setServerPort(int serverPort) {
-//        this.serverPort = serverPort;
-//    }
-//
-//    public int getServerPort() {
-//        return serverPort;
-//    }
-//
-//    public void send(Object object) {
-//        sendingManager.send(object, serverPort, clientPort, socket);
-//
-//    }
-//
-//    public Object receive() {
-//        return receivingManager.receive(socket,clientPort);
-//    }
-//}

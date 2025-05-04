@@ -46,7 +46,7 @@ public class Generate extends Command {
         Worker generateWorker(){
             Random random = new Random();
             int rn = abs(abs(random.nextInt()) + 666);
-            //console.println(rn);
+            //System.out.println(rn);
             int letters = (rn % 7) + 3;
             StringBuilder name = new StringBuilder();
             name.append((char) ((rn % 26) + 65));

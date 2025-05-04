@@ -21,7 +21,7 @@ public class Exit extends Command {
         if (request.args() != null) {
             return new Response("Введен лишний аргумент", null, 450);
         }
-        console.println("Выход из программы");
+        System.out.println("Выход из программы");
         ///BackUp.remove_last();
         System.exit(0);
         return null;

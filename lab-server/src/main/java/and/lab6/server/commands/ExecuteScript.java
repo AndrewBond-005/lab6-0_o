@@ -57,11 +57,10 @@ public class ExecuteScript extends Command {
                             (tokens.length>1)?(!tokens[1].equals("worker"))?
                                     Collections.singletonList(tokens[1]) :null:null,
                     w);
-            //console.println(commandManager.getCommands());
-            console.println("========="+tokens[0]+" "+command+"=========");
-            console.println(req.toString());
+            //System.out.println(commandManager.getCommands());
+
             Response response = command.execute(req);
-            console.println(response.message());
+
             message.append(response.message());
             if (response.workers() != null) {
                 workers.addAll(response.workers());
@@ -69,7 +68,7 @@ public class ExecuteScript extends Command {
             returnCode=Math.max(returnCode,response.returnCode());
         }
         var answer= new Response(message.toString(), workers, returnCode);
-        console.println(answer);
+
         return answer;
     }
 }

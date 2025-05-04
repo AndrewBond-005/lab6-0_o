@@ -19,7 +19,6 @@ public class Show extends Command {
     }
 
     @Override
-    public Object validate(String arguments, boolean scriprtMode) {
-       return true;
+    public Object validate(String arguments, boolean scriprtMode) {return true;
     }
 }

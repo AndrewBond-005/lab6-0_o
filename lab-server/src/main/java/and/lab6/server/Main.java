@@ -5,33 +5,40 @@ import and.lab6.server.managers.*;
 import and.lab6.server.utility.Execute;
 import and.lab6.server.utility.StandardConsole;
 import and.lab6.server.utility.Terminate;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import util.ProgramStatus;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
+    private static final Logger logger = LogManager.getLogger(Main.class);
+
 
     public static void main(String[] args) {
         StandardConsole console = new StandardConsole();
         String fileName = "collection.csv";
         File file = new File(fileName);
         if (!file.exists()) {
-            console.printError("Файл не существует");
+            logger.warn("Файл collection.csv не существует");
         }
         var fileManager = new FileManager(fileName, console);
-
         UDPManager udpManager = null;
         int i = 1200;
         while (i <= 65000)
             try {
                 udpManager = new UDPManager(i, new SendingManager(), new ReceivingManager());
-                console.println("Сервер открыт на порту: " + i);
+                logger.info("Сервер открыт на порту: " + i);
                 break;
             } catch (IOException e) {
-                console.println("ПОРТ ЗАНЯТ" + i);
+                logger.info("Порт " + i+ " занят, пробуем следующий");
                 i++;
             }
 
@@ -55,12 +62,16 @@ public class Main {
         com.put("remove_lower", new RemoveLower(console, collectionManager));
         com.put("remove_greater", new RemoveGreater(console, collectionManager));
         com.put("es", new ExecuteScript(console, collectionManager, commandManager, udpManager));
-
+        collectionManager.loadCollection();
         commandManager.setCommands(com);
-        console.println(commandManager.getCommands());
         ///BackUp.read((ExecuteScript) commandManager.getCommands().get("es"), console);
-
-        Runtime.getRuntime().addShutdownHook(new Terminate(udpManager, new Save(collectionManager)));
+        if (udpManager != null) {
+            udpManager.setSessions(fileManager.loadClients());
+            logger.info("Отправляем всем известным клиентам, что сервер доступен");
+            udpManager.sendAll(ProgramStatus.SERVER_CONNECTS);
+            udpManager.setSessions(new HashSet<>());
+        }
+        Runtime.getRuntime().addShutdownHook(new Terminate(udpManager, new Save(collectionManager), fileManager));
         new Execute(commandManager, console, udpManager).execute();
     }
 }

@@ -2,6 +2,8 @@ package and.lab6.server.utility;
 
 import and.lab6.server.managers.CommandManager;
 import and.lab6.server.managers.UDPManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import util.ProgramStatus;
 import util.Request;
 
@@ -9,6 +11,8 @@ public class Execute {
     private final Console console;
     private final CommandManager commandManager;
     private final UDPManager udpManager;
+    private static final Logger logger = LogManager.getLogger(Execute.class);
+
 
     public Execute(CommandManager commandManager, Console console, UDPManager udpManager) {
         this.commandManager = commandManager;
@@ -18,37 +22,19 @@ public class Execute {
 
     public void execute() {
         while (true) {
-            console.println("ожидаем получения");
+            logger.info("ожидаем получения");
             Object object = udpManager.receive();
-            console.println("получили:" + object.toString());
             if (object instanceof Request request) {
                 var commandName = request.command();
                 var command = commandManager.getCommands().get(commandName);
+                logger.info("пришла команда" + command.getName());
                 var response = command.execute(request);
+                logger.info("команда выполнена, сформирован ответ");
                 udpManager.send(response);
-               // console.println(response.toString());
+                // System.out.println(response.toString());
             } else if (object instanceof ProgramStatus) {
                 udpManager.somethingWithClient((ProgramStatus) object, commandManager);
             }
         }
     }
 }
-//
-//while (true) {
-//            console.println("ожидаем получения");
-//            Object object = udpManager.receive();
-//            console.println("получили:");
-//            if (object instanceof Request) {
-//                console.println(((Request) object).command());
-//                mustSend = 1;
-//            } else if (object instanceof ProgramStatus) {
-//                console.println(((ProgramStatus) object).toString());
-//                mustSend = 0;
-//            } else {
-//                console.println("что-то непонятное");
-//                mustSend = 0;
-//            }
-//            if (mustSend == 1){
-//                console.println("что отправить");
-//                udpManager.send(new Request(scanner.nextLine(), null, null));
-//

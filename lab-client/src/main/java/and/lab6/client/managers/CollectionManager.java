@@ -29,7 +29,7 @@ public class CollectionManager {
     }
 
     public List<Worker> getCollection() {
-        return Collections.unmodifiableList(workersList);
+        return (workersList).isEmpty() ?new ArrayList<>():workersList;
     }
 
     public void setLastWorker(int id) {

@@ -19,8 +19,8 @@ public class RemoveById extends Command {
 
     @Override
     public Response execute(Request request) {
-        if (request.args() != null) {
-            return new Response("Введен лишний аргумент", null, 450);
+        if (request.args() == null) {
+            return new Response("Не введён аргумент", null, 450);
         }
         collectionManager.remove(collectionManager.getById(Integer.parseInt(request.args().get(0))));
         return new Response("Элемент успешно удалён",null,200);

@@ -26,7 +26,6 @@ public class Show extends Command {
         if (request.args() != null) {
             return new Response("Введен лишний аргумент", null, 450);
         }
-        console.println("Содержимое коллекции");
         var collection = collectionManager.getCollection();
         if (collection.isEmpty()) {
             return new Response("Коллекция пуста", null, 200);
@@ -35,7 +34,7 @@ public class Show extends Command {
                 new ArrayList<>(collectionManager.getCollection()).stream()
                         .sorted(Comparator.comparing(Worker::getId))
                         .sorted(Comparator.comparing(Worker::getId))
-                        .collect(Collectors.toList()), 200);
+                        .collect(Collectors.toList()), 1000);
     }
 
 }
