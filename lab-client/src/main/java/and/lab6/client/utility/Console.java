@@ -23,7 +23,9 @@ public interface Console {
     void setFileScanner(Scanner scanner);
 
     Scanner getFileScanner();
-     boolean hasInput();
+
+    boolean hasInput();
+
     void selectConsoleScanner();
 
     void setRepeatMode(boolean repeatMode);

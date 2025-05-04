@@ -5,6 +5,7 @@ import util.ProgramStatus;
 
 public class Terminate extends Thread {
     private UDPManager udpManager;
+
     public Terminate(UDPManager udpManager) {
         this.udpManager = udpManager;
     }

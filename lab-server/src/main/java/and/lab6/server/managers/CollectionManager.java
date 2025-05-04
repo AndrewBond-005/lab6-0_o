@@ -3,7 +3,10 @@ package and.lab6.server.managers;
 import models.Worker;
 
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class CollectionManager {
@@ -36,7 +39,7 @@ public class CollectionManager {
                 .anyMatch(w -> w.getId() == e.getId());
     }
 
-    public void  update(Worker w) {
+    public void update(Worker w) {
         if (w == null) return;
         remove(getById(w.getId()));
         add(w);

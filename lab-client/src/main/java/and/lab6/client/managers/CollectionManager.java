@@ -2,7 +2,10 @@ package and.lab6.client.managers;
 
 import models.Worker;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class CollectionManager {
     private List<Worker> workersList = new ArrayList<>();
@@ -29,7 +32,7 @@ public class CollectionManager {
     }
 
     public List<Worker> getCollection() {
-        return (workersList).isEmpty() ?new ArrayList<>():workersList;
+        return (workersList).isEmpty() ? new ArrayList<>() : workersList;
     }
 
     public void setLastWorker(int id) {

@@ -12,8 +12,6 @@ import util.ProgramStatus;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
@@ -38,7 +36,7 @@ public class Main {
                 logger.info("Сервер открыт на порту: " + i);
                 break;
             } catch (IOException e) {
-                logger.info("Порт " + i+ " занят, пробуем следующий");
+                logger.info("Порт " + i + " занят, пробуем следующий");
                 i++;
             }
 

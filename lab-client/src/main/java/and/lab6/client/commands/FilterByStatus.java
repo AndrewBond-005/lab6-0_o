@@ -1,10 +1,7 @@
 package and.lab6.client.commands;
 
-import and.lab6.client.ask.AskBreak;
-import and.lab6.client.ask.AskWorker;
 import and.lab6.client.utility.Console;
 import models.Status;
-import models.Worker;
 
 
 /**
@@ -21,8 +18,8 @@ public class FilterByStatus extends Command {
     @Override
     public Object validate(String arguments, boolean scriprtMode) {
         try {
-            Status status= Status.valueOf(arguments);
-           return true;
+            Status status = Status.valueOf(arguments);
+            return true;
         } catch (IllegalArgumentException e) {
             return false;
         }

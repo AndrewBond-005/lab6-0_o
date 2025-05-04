@@ -16,7 +16,7 @@ public class AskDate {
                 console.print("Введите значение даты окончания работы EndDate (Exemple: " +
                         LocalDateTime.now().format(DateTimeFormatter.ISO_DATE) + " or 2025-05-25): ");
                 var line = console.readln().trim();
-                if(line.isEmpty())
+                if (line.isEmpty())
                     continue;
                 if (line.equals(console.getStopWord()) || line.equals(console.getExitWord()))
                     throw new AskBreak(line);
@@ -28,7 +28,7 @@ public class AskDate {
 //                    if (line.equalsIgnoreCase("this") && UpdateID.worker != null) {
 //                        endDate = UpdateID.worker.getEndDate();
 //                    } else {
-                        endDate = LocalDate.parse(line, DateTimeFormatter.ISO_DATE);
+                    endDate = LocalDate.parse(line, DateTimeFormatter.ISO_DATE);
 //                    }
                     break;
                 } catch (DateTimeParseException e) {

@@ -1,9 +1,6 @@
 package and.lab6.client.commands;
 
-import and.lab6.client.ask.AskBreak;
-import and.lab6.client.ask.AskWorker;
 import and.lab6.client.utility.Console;
-import models.Worker;
 
 
 /**
@@ -21,6 +18,7 @@ public class Exit extends Command {
     public Object validate(String arguments, boolean scriprtMode) {
         return true;
     }
+
     public void execute() {
         System.exit(0);
     }

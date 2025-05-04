@@ -1,10 +1,10 @@
 package and.lab6.client.ask;
 
+import and.lab6.client.utility.Console;
 import models.Country;
 import models.EyeColor;
 import models.HairColor;
 import models.Person;
-import and.lab6.client.utility.Console;
 
 import java.util.NoSuchElementException;
 
@@ -17,7 +17,7 @@ public class AskPerson {
             while (true) {
                 console.print("Введите вес weight: ");
                 var line = console.readln().trim();
-                if(line.isEmpty())
+                if (line.isEmpty())
                     continue;
                 if (line.equals(console.getStopWord()) || line.equals(console.getExitWord()))
                     throw new AskBreak(line);
@@ -44,11 +44,11 @@ public class AskPerson {
             }
             // BackUp.println(String.valueOf(weight));
             EyeColor eyeColor = askEnum(EyeColor.class, console, scriprtMode);
-            if (scriprtMode && eyeColor==null) return null;
+            if (scriprtMode && eyeColor == null) return null;
             HairColor hairColor = askEnum(HairColor.class, console, scriprtMode);
-            if (scriprtMode && hairColor==null) return null;
+            if (scriprtMode && hairColor == null) return null;
             Country nationality = askEnum(Country.class, console, scriprtMode);
-            if (scriprtMode && nationality==null) return null;
+            if (scriprtMode && nationality == null) return null;
 
             return new Person(weight, eyeColor, hairColor, nationality);
         } catch (NoSuchElementException | IllegalStateException e) {

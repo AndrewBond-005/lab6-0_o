@@ -15,7 +15,7 @@ public class UDPManager {
     private int clientPort = 4652;
     private DatagramChannel channel;
     private Selector selector;
-    private int maxWorkerCount =490;
+    private int maxWorkerCount = 490;
 
     public int getMaxWorkerCount() {
         return maxWorkerCount;
@@ -56,7 +56,7 @@ public class UDPManager {
 
     public Object receive(long timeoutMillis) {
         try {
-            if(!selector.isOpen()){
+            if (!selector.isOpen()) {
                 System.exit(0);
             }
             if (selector.select(timeoutMillis) > 0) {
@@ -74,10 +74,11 @@ public class UDPManager {
             }
             return null;
         } catch (IOException e) {
-            System.out.println("Error receiving data"+ e);
+            System.out.println("Error receiving data" + e);
         }
         return null;
     }
+
     public void close() {
         try {
             if (selector != null) {

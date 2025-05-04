@@ -10,7 +10,7 @@ public class Info extends Command {
     private final Console console;
 
     public Info(Console console) {
-       super("info", "вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.)");
+        super("info", "вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.)");
         this.console = console;
     }
 

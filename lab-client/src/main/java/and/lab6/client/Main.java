@@ -19,7 +19,7 @@ public class Main {
         var console = new StandardConsole();
         int clientPort = 10000 + (int) (Math.random() * 40001);
 //
-        int port=1200;
+        int port = 1200;
 //
         var udpManager = new UDPManager(new ReceivingManager(), new SendingManager(), port, clientPort);
         Runtime.getRuntime().addShutdownHook(new Terminate(udpManager));

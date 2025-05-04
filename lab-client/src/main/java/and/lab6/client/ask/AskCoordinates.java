@@ -1,8 +1,9 @@
 package and.lab6.client.ask;
 
 //import commands.UpdateID;
-import models.Coordinates;
+
 import and.lab6.client.utility.Console;
+import models.Coordinates;
 
 import java.util.NoSuchElementException;
 
@@ -13,7 +14,7 @@ public class AskCoordinates {
             while (true) {
                 console.print("Введите первую координату coordinates.x: ");
                 var line = console.readln().trim();
-                if(line.isEmpty())
+                if (line.isEmpty())
                     continue;
                 if (line.equals(console.getStopWord()) || line.equals(console.getExitWord()))
                     throw new AskBreak(line);
@@ -22,7 +23,7 @@ public class AskCoordinates {
 //                        if (line.equalsIgnoreCase("this") && UpdateID.worker != null) {
 //                            x = UpdateID.worker.getCoordinates().getX();
 //                        } else {
-                            x = Float.parseFloat(line);
+                        x = Float.parseFloat(line);
 //                        }
                         break;
 
@@ -37,7 +38,7 @@ public class AskCoordinates {
             while (true) {
                 console.print("Введите вторую координату coordinates.y: ");
                 var line = console.readln().trim();
-                if(line.isEmpty())
+                if (line.isEmpty())
                     continue;
                 if (line.equals(console.getStopWord()) || line.equals(console.getExitWord()))
                     throw new AskBreak(line);
@@ -48,7 +49,7 @@ public class AskCoordinates {
 //                        if (line.equalsIgnoreCase("this") && UpdateID.worker != null) {
 //                            y = UpdateID.worker.getCoordinates().getY();
 //                        } else {
-                            y = Long.parseLong(line);
+                        y = Long.parseLong(line);
 //                        }
                         break;
                     } catch (NumberFormatException e) {

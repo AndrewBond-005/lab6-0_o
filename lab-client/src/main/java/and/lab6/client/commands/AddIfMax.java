@@ -23,15 +23,14 @@ public class AddIfMax extends Command {
         Worker worker = null;
         try {
             worker = AskWorker.askWorker(console, scriprtMode);
-            if(worker==null){
+            if (worker == null) {
                 return false;
             }
-            if(worker.validate().isEmpty()){
+            if (worker.validate().isEmpty()) {
                 console.println("Поля Worker корректны");
                 return worker;
-            }
-            else{
-                console.println("Поля Worker некорректны: "+ worker.validate());
+            } else {
+                console.println("Поля Worker некорректны: " + worker.validate());
                 return worker.validate();
             }
         } catch (AskBreak e) {

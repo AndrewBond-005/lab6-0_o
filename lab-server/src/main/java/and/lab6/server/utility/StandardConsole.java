@@ -11,10 +11,12 @@ public class StandardConsole implements Console {
     private static Scanner fileScanner = null;
     private static final Scanner defScanner = new Scanner(System.in);
     private static boolean repeatMode = false;
+
     @Override
     public String getStopWord() {
         return "stop";
     }
+
     @Override
     public String getExitWord() {
         return "exit";
@@ -29,7 +31,7 @@ public class StandardConsole implements Console {
     }
 
     public void printError(Object obj) {
-        System.err.println("Error: " + obj+'\n'+"одна ошибка и ты ошибся");
+        System.err.println("Error: " + obj + '\n' + "одна ошибка и ты ошибся");
 
     }
 
@@ -37,7 +39,7 @@ public class StandardConsole implements Console {
         String s;
         if (isCanReadln()) {
             s = (fileScanner != null ? fileScanner : defScanner).nextLine();
-           // BackUp.println(s);
+            // BackUp.println(s);
 
         } else {
             selectConsoleScanner();
@@ -45,10 +47,10 @@ public class StandardConsole implements Console {
                 System.exit(0);
             }
             s = (fileScanner != null ? fileScanner : defScanner).nextLine();
-           // BackUp.println(s);
+            // BackUp.println(s);
 
         }
-        if(fileScanner==null){
+        if (fileScanner == null) {
 
         }
         if (repeatMode) println(s);

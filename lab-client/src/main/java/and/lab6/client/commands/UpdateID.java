@@ -4,7 +4,6 @@ import and.lab6.client.ask.AskBreak;
 import and.lab6.client.ask.AskWorker;
 import and.lab6.client.utility.Console;
 import models.Worker;
-import util.Response;
 
 
 /**
@@ -28,13 +27,12 @@ public class UpdateID extends Command {
         Worker worker = null;
         try {
             worker = AskWorker.askWorker(console, scriprtMode);
-            if(worker==null){
+            if (worker == null) {
                 return false;
             }
-            if(worker.validate().isEmpty()){
+            if (worker.validate().isEmpty()) {
                 return worker;
-            }
-            else{
+            } else {
                 return worker.validate();
             }
         } catch (AskBreak e) {

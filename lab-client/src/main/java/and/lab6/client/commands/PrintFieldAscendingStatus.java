@@ -1,6 +1,5 @@
 package and.lab6.client.commands;
 
-import and.lab6.client.commands.PrintFieldAscendingStatus.StatusComparator;
 import and.lab6.client.utility.Console;
 import models.Worker;
 
@@ -24,10 +23,11 @@ public class PrintFieldAscendingStatus extends Command {
         return true;
     }
 
-    public void execute(List<Worker> workers) {;
+    public void execute(List<Worker> workers) {
+        ;
         Comparator<Worker> comparator = new StatusComparator();
         workers.sort(comparator);
-        for(Worker w:workers){
+        for (Worker w : workers) {
             console.println(w.getStatus());
         }
     }

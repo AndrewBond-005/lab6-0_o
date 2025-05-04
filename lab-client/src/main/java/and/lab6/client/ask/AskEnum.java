@@ -9,7 +9,7 @@ public class AskEnum {
         while (true) {
             console.print("Введите " + "значение" + " " + param.getSimpleName() + Arrays.toString(param.getEnumConstants()) + ": ");
             var line = console.readln().trim();
-            if(line.isEmpty())
+            if (line.isEmpty())
                 continue;
             if (line.equals(console.getStopWord()) || line.equals(console.getExitWord()))
                 throw new AskBreak(line);
@@ -31,7 +31,7 @@ public class AskEnum {
 //                        console.println("Ошибка! Что-то пошло не так");
 //                    }
 //                } else
-                    try {
+                try {
                     var res = T.valueOf(param, line.toUpperCase());
                     // BackUp.println(String.valueOf(res));
                     return res;

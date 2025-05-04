@@ -186,14 +186,12 @@ public class Execute {
             else {
                 return null;
             }
-        }
-        else if(val instanceof String){
+        } else if (val instanceof String) {
             return (val.toString());
-        }
-        else {
+        } else {
             var list = new ArrayList<Worker>();
             list.add((Worker) val);
-            return new Request(tokens[0],tokens.length > 1 ?
+            return new Request(tokens[0], tokens.length > 1 ?
                     Collections.singletonList(tokens[1]) : null, list);
         }
     }
@@ -217,11 +215,13 @@ public class Execute {
         if (response.returnCode() == 1000) {
             return;
         }
-        if(response.returnCode()==1001){
+        if (response.returnCode() == 1001) {
             assert response.workers() != null;
             ((PrintFieldAscendingStatus) commandManager.
                     getCommands().get("print_field_ascending_status")).
-                    execute(response.workers());  return;     }
+                    execute(response.workers());
+            return;
+        }
         if (response.returnCode() != 200 && response.returnCode() > 0)
             console.printError(response.message());
         else if (response.returnCode() != 0)

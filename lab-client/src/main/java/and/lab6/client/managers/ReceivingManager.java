@@ -12,7 +12,7 @@ public class ReceivingManager {
             // Получаем датаграмму
             ByteBuffer buffer = ByteBuffer.allocate(65536);
             buffer.clear();
-           // System.out.println("Открываем порт, где ждём данные от сервера" + clientPort);
+            // System.out.println("Открываем порт, где ждём данные от сервера" + clientPort);
             channel.receive(buffer);
             buffer.flip();
             byte[] data = new byte[buffer.limit()];

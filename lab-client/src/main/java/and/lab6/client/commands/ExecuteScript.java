@@ -72,7 +72,7 @@ public class ExecuteScript extends Command {
                 // console.selectConsoleScanner();
                 var line = console.readln().trim();
                 String[] tokens = line.split(" ", 2);
-                if(line.isEmpty())
+                if (line.isEmpty())
                     continue;
                 var command = commandManager.getCommands().get(tokens[0]);
                 if (arguments.equals(console.getStopWord()) || arguments.equals(console.getExitWord())) {
@@ -98,9 +98,9 @@ public class ExecuteScript extends Command {
                     Object res = command.validate(tokens.length > 1 ? tokens[1] : null, true);
                     if (res instanceof Worker) {
                         if (tokens.length > 1) {
-                            args.add(tokens[0] +" "+ tokens[1]+" worker");
+                            args.add(tokens[0] + " " + tokens[1] + " worker");
                         } else {
-                            args.add(tokens[0]+" worker");
+                            args.add(tokens[0] + " worker");
                         }
                         workers.add((Worker) res);
                     } else if (res instanceof Boolean) {
@@ -109,7 +109,7 @@ public class ExecuteScript extends Command {
                             return -1;
                         }
                         if (tokens.length > 1) {
-                            args.add(tokens[0] + " "+tokens[1]);
+                            args.add(tokens[0] + " " + tokens[1]);
                         } else {
                             args.add(tokens[0]);
                         }
@@ -131,7 +131,7 @@ public class ExecuteScript extends Command {
 
                     //console.println(name+" -1"+"  №5");
                     // map.put(name, map.get(name) - 1);
-                    if (s!=0) {
+                    if (s != 0) {
                         return s;
                     }
                 }

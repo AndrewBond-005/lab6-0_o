@@ -3,7 +3,6 @@ package and.lab6.client.managers;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -23,7 +22,7 @@ public class SendingManager {
             // Отправка по UDP
             ByteBuffer buffer = ByteBuffer.wrap(data);
             //System.out.println("отправляем на  " + serverAddress + " с " + serverPort);
-            channel.send(buffer,new InetSocketAddress(serverAddress,serverPort));
+            channel.send(buffer, new InetSocketAddress(serverAddress, serverPort));
             oos.close();
         } catch (IOException e) {
             System.out.println("произошла ошибка при отправки запроса на сервер");

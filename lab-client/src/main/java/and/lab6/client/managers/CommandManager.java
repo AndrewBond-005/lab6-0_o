@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class CommandManager {
     Map<String, Command> commands = new HashMap<>();
-    private int maxRecursionDeep =2;
+    private int maxRecursionDeep = 2;
 
     public Map<String, Command> getCommands() {
         return commands;

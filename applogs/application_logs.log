@@ -1,0 +1,1380 @@
+2025-05-03 21:25:36 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 21:40:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.136825
+2025-05-03 21:40:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:02:09 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-03 23:02:09 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-03 23:02:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:36825
+2025-05-03 23:02:09 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:02:09 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:02:16 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.136825
+2025-05-03 23:02:16 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:36825 отключился от сервера
+2025-05-03 23:02:16 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:02:16 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:02:19 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111489
+2025-05-03 23:02:19 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:11489
+2025-05-03 23:02:19 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11489
+2025-05-03 23:02:19 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:02:19 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:02:42 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111489
+2025-05-03 23:02:42 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:11489 отключился от сервера
+2025-05-03 23:02:42 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:02:42 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:10 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-03 23:57:10 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-03 23:57:10 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:10 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:14 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:57:14 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:48360
+2025-05-03 23:57:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:14 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:14 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:20 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:37 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-03 23:57:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:41 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-03 23:57:41 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:41 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:57:41 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:57:41 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:58:32 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:58:36 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:58:41 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-03 23:58:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-03 23:58:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:48360
+2025-05-03 23:58:44 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-03 23:58:44 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:02:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.148360
+2025-05-04 00:02:40 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:48360 отключился от сервера
+2025-05-04 00:02:40 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:02:40 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:02:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119389
+2025-05-04 00:02:43 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:19389
+2025-05-04 00:02:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:02:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119389
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:02:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19389
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:02:47 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:03 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119389
+2025-05-04 00:04:03 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:19389 отключился от сервера
+2025-05-04 00:04:03 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:03 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:06 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123553
+2025-05-04 00:04:06 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:23553
+2025-05-04 00:04:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:06 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:06 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123553
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:04:08 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23553
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:09 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:27 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123553
+2025-05-04 00:04:27 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:23553 отключился от сервера
+2025-05-04 00:04:27 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:27 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149332
+2025-05-04 00:04:30 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:49332
+2025-05-04 00:04:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149332
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:04:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:04:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49332
+2025-05-04 00:04:34 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:04:34 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:05:55 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149332
+2025-05-04 00:05:55 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:49332 отключился от сервера
+2025-05-04 00:05:55 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:05:55 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:05:58 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135682
+2025-05-04 00:05:58 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:35682
+2025-05-04 00:05:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:05:58 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:05:58 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135682
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:06:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35682
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:06:01 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:08:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135682
+2025-05-04 00:08:53 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:35682 отключился от сервера
+2025-05-04 00:08:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:08:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:08:56 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.128710
+2025-05-04 00:08:56 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:28710
+2025-05-04 00:08:56 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:08:56 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:08:56 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.128710
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:08:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:09:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:09:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:09:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:28710
+2025-05-04 00:09:00 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:09:00 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:28 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.128710
+2025-05-04 00:10:28 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:28710 отключился от сервера
+2025-05-04 00:10:28 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:28 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.132331
+2025-05-04 00:10:30 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:32331
+2025-05-04 00:10:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.132331
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:10:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:10:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32331
+2025-05-04 00:10:34 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:34 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:47 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.132331
+2025-05-04 00:10:47 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:32331 отключился от сервера
+2025-05-04 00:10:47 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:47 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:50 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124565
+2025-05-04 00:10:50 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:24565
+2025-05-04 00:10:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:50 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:50 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124565
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:10:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24565
+2025-05-04 00:10:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:10:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:12:58 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124565
+2025-05-04 00:12:58 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:24565 отключился от сервера
+2025-05-04 00:12:58 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:12:58 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:13:37 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:13:37 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:13:37 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:13:37 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:13:42 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133428
+2025-05-04 00:13:42 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:33428
+2025-05-04 00:13:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:42 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:13:42 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133428
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:13:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:13:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:49 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33428
+2025-05-04 00:13:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:13:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:15:21 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133428
+2025-05-04 00:15:21 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:33428 отключился от сервера
+2025-05-04 00:15:21 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:15:21 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:15:25 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122295
+2025-05-04 00:15:25 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:22295
+2025-05-04 00:15:25 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:25 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:15:25 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122295
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:15:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:28 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22295
+2025-05-04 00:15:28 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:15:28 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:16:37 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122295
+2025-05-04 00:16:37 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:22295 отключился от сервера
+2025-05-04 00:16:37 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:16:37 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:16:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.144320
+2025-05-04 00:16:40 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:44320
+2025-05-04 00:16:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:40 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:16:40 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.144320
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:16:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:16:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.144320
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:16:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:23:58 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:23:58 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:23:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:44320
+2025-05-04 00:23:58 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:23:58 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:23:59 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.144320
+2025-05-04 00:23:59 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:44320 отключился от сервера
+2025-05-04 00:23:59 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:23:59 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:24:02 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.131038
+2025-05-04 00:24:02 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:31038
+2025-05-04 00:24:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:02 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:24:02 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.131038
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:24:06 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.131038
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:24:09 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:24:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:11 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:31038
+2025-05-04 00:24:11 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:24:11 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:01 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.131038
+2025-05-04 00:27:01 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:31038 отключился от сервера
+2025-05-04 00:27:01 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:01 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:04 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124394
+2025-05-04 00:27:04 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:24394
+2025-05-04 00:27:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:04 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:04 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124394
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:27:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:27:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:07 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:07 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124394
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124394
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:27:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:24 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:45 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:27:45 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:27:45 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24394
+2025-05-04 00:27:45 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:45 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:48 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124394
+2025-05-04 00:27:48 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:24394 отключился от сервера
+2025-05-04 00:27:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:49 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.130856
+2025-05-04 00:27:49 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:30856
+2025-05-04 00:27:49 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.130856
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:27:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:27:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.130856
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:28:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:28:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:30856
+2025-05-04 00:28:15 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:28:15 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:28:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.130856
+2025-05-04 00:28:40 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:30856 отключился от сервера
+2025-05-04 00:28:40 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:28:40 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:28:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142765
+2025-05-04 00:28:43 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:42765
+2025-05-04 00:28:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:42765
+2025-05-04 00:28:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:28:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:28:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142765
+2025-05-04 00:28:53 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:42765 отключился от сервера
+2025-05-04 00:28:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:28:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:28:56 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.140623
+2025-05-04 00:28:56 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:40623
+2025-05-04 00:28:56 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:40623
+2025-05-04 00:28:56 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:28:56 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:29:19 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.140623
+2025-05-04 00:29:19 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:40623 отключился от сервера
+2025-05-04 00:29:19 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:29:19 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:29:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.118772
+2025-05-04 00:29:22 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:18772
+2025-05-04 00:29:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:29:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:29:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.managers.FileManager - Коллекция успешна загружена!
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:38:17 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:38:38 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:38:38 [main] INFO  and.lab6.server.managers.FileManager - Коллекция успешна загружена!
+2025-05-04 00:38:38 [main] WARN  and.lab6.server.managers.FileManager - Файл clientAddresses.csv пуст!
+2025-05-04 00:38:38 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:38:38 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:38:38 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.118772
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:39:02 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.118772
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:39:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:45 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:18772
+2025-05-04 00:39:45 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:39:45 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:40:51 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.118772
+2025-05-04 00:40:51 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:18772 отключился от сервера
+2025-05-04 00:40:51 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:40:51 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:40:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119859
+2025-05-04 00:40:54 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:19859
+2025-05-04 00:40:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:40:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119859
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:40:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:40:59 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:41:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:41:00 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:41:00 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119859
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:41:12 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.managers.FileManager - Коллекция успешна загружена!
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19859
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:42:46 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:42:47 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119859
+2025-05-04 00:42:47 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:19859 отключился от сервера
+2025-05-04 00:42:47 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:42:47 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:42:51 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:42:51 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:24901
+2025-05-04 00:42:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:42:51 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:42:51 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:42:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:43:00 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:43:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 00:43:02 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 7
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 8
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 9
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 10
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 11
+2025-05-04 00:43:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 12
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 13
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 14
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 15
+2025-05-04 00:43:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 16
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 17
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 18
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 19
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 20
+2025-05-04 00:43:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 21
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 22
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 23
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 24
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 25
+2025-05-04 00:43:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 26
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.managers.SendingManager - не получилось, попробуем ещё раз
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:43:07 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:43:23 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:24901
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:43:29 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:44:09 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.124901
+2025-05-04 00:44:09 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:24901 отключился от сервера
+2025-05-04 00:44:09 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:44:09 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:44:13 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149211
+2025-05-04 00:44:13 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:49211
+2025-05-04 00:44:13 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49211
+2025-05-04 00:44:13 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:44:13 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:44:56 [main] WARN  and.lab6.server.managers.FileManager - Файл collection.csv пуст!
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49211
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:44:56 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149211
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.utility.Execute - пришла командаexecute_script file_name
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49211
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149211
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:49211 отключился от сервера
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:32 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149268
+2025-05-04 00:45:32 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:49268
+2025-05-04 00:45:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:49268
+2025-05-04 00:45:32 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:32 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:37 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.149268
+2025-05-04 00:45:37 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:49268 отключился от сервера
+2025-05-04 00:45:37 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:37 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:42 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:45:42 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:19803
+2025-05-04 00:45:42 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:45:42 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:42 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:45:55 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:47:00 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:47:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.managers.FileManager - Коллекция успешна загружена!
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:48:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:49:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:49:16 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:49:16 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:49:16 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:50:27 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:50:44 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:50:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:51:03 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.utility.Execute - пришла командаfilter_by_status status
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:51:21 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:52:40 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:52:44 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.utility.Execute - пришла командаhelp
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:52:50 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.utility.Execute - пришла командаmin_by_position
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:53:01 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:53:44 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:53:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.utility.Execute - пришла командаremove_by_id {element}
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 00:55:01 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:00:36 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19803
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:01:31 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:03:15 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119803
+2025-05-04 01:03:15 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:19803 отключился от сервера
+2025-05-04 01:03:15 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:03:15 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:03:18 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:03:18 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:41339
+2025-05-04 01:03:18 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:03:18 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:03:18 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 01:04:46 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:04:47 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:04:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:04:55 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:05:11 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:06:21 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:06:25 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:06:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.utility.Execute - пришла командаhelp
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:08:05 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:20 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 01:21:20 [main] WARN  and.lab6.server.managers.FileManager - Файл collection.csv пуст!
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 01:21:22 [main] WARN  and.lab6.server.managers.FileManager - Файл collection.csv пуст!
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:41339
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:25 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.141339
+2025-05-04 01:21:25 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:41339 отключился от сервера
+2025-05-04 01:21:25 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:25 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:28 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:21:28 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:25288
+2025-05-04 01:21:28 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25288
+2025-05-04 01:21:28 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:28 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.utility.Execute - пришла командаhelp
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25288
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25288
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:47 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:21:53 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 01:21:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:21:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25288
+2025-05-04 01:21:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25288
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:21:55 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:24:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125288
+2025-05-04 01:24:30 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:25288 отключился от сервера
+2025-05-04 01:24:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:24:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:24:33 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123591
+2025-05-04 01:24:33 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:23591
+2025-05-04 01:24:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23591
+2025-05-04 01:24:33 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:24:33 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123591
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:23591
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:24:38 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:24:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.123591
+2025-05-04 01:24:54 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:23591 отключился от сервера
+2025-05-04 01:24:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:24:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:24:57 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:24:57 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:19195
+2025-05-04 01:24:57 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:24:57 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:24:57 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:00 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:05 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.utility.Execute - пришла командаprint_field_ascending_status
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:06 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:21 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.utility.Execute - пришла командаexecute_script file_name
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19195
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119195
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:19195 отключился от сервера
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:25:25 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:27:38 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142269
+2025-05-04 01:27:38 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:42269
+2025-05-04 01:27:38 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:42269
+2025-05-04 01:27:38 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:27:38 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142269
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - пришла командаexecute_script file_name
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:42269
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142269
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:42269
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:27:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:30:27 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.142269
+2025-05-04 01:30:27 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:42269 отключился от сервера
+2025-05-04 01:30:27 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:30:27 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:30:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.132506
+2025-05-04 01:30:30 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:32506
+2025-05-04 01:30:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:32506
+2025-05-04 01:30:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:30:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:30:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.132506
+2025-05-04 01:30:53 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:32506 отключился от сервера
+2025-05-04 01:30:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:30:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:30:57 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:30:57 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:19650
+2025-05-04 01:30:57 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:30:57 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:30:57 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.utility.Execute - пришла командаexecute_script file_name
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:31:04 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:31:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:31:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:31:58 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:32:04 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 01:32:48 [main] WARN  and.lab6.server.managers.FileManager - Файл collection.csv пуст!
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.managers.FileManager - Клиенты успешно загружены!
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:19650
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:32:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:32:49 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.119650
+2025-05-04 01:32:49 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:19650 отключился от сервера
+2025-05-04 01:32:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:32:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:32:51 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111937
+2025-05-04 01:32:51 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:11937
+2025-05-04 01:32:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11937
+2025-05-04 01:32:51 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:32:51 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:32:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111937
+2025-05-04 01:32:54 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:32:54 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:32:54 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11937
+2025-05-04 01:32:54 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:32:54 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:36:49 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111937
+2025-05-04 01:36:49 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:11937 отключился от сервера
+2025-05-04 01:36:49 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:36:49 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:36:53 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135195
+2025-05-04 01:36:53 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:35195
+2025-05-04 01:36:53 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35195
+2025-05-04 01:36:53 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:36:53 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135195
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:35195
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:36:56 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:37:09 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.135195
+2025-05-04 01:37:09 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:35195 отключился от сервера
+2025-05-04 01:37:09 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:37:09 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:38:38 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:38:38 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:22545
+2025-05-04 01:38:38 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:38:38 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:38:38 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.utility.Execute - пришла командаadd {element}
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:38:48 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:38:52 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.utility.Execute - пришла командаadd_if_max {element}
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:39:05 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:39:10 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.utility.Execute - пришла командаadd_if_max {element}
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:39:19 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.utility.Execute - пришла командаadd_if_max {element}
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:39:31 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.utility.Execute - пришла командаadd_if_max {element}
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:39:43 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.utility.Execute - пришла командаupdate_id {id}
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:22545
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:40:15 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:44:33 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.122545
+2025-05-04 01:44:33 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:22545 отключился от сервера
+2025-05-04 01:44:33 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:44:33 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:44:37 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133535
+2025-05-04 01:44:37 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:33535
+2025-05-04 01:44:37 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33535
+2025-05-04 01:44:37 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:44:37 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133535
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33535
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:44:40 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133535
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.utility.Execute - пришла командаupdate_id {id}
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33535
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:44:58 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133535
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.utility.Execute - пришла командаremove_lower {element}
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:33535
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:45:14 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 01:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.133535
+2025-05-04 01:45:22 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:33535 отключился от сервера
+2025-05-04 01:45:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 01:45:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:09 [main] INFO  and.lab6.server.Main - Сервер открыт на порту: 1200
+2025-05-04 13:38:09 [main] WARN  and.lab6.server.managers.FileManager - Файл collection.csv пуст!
+2025-05-04 13:38:09 [main] WARN  and.lab6.server.managers.FileManager - Файл clientAddresses.csv пуст!
+2025-05-04 13:38:09 [main] INFO  and.lab6.server.Main - Отправляем всем известным клиентам, что сервер доступен
+2025-05-04 13:38:09 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:09 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:12 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:12 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:25276
+2025-05-04 13:38:12 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:12 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:12 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:30 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 13:38:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:34 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:34 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.utility.Execute - пришла командаinfo
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:44 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 13:38:50 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:25276
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:38:51 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:08 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.125276
+2025-05-04 13:40:08 [main] INFO  and.lab6.server.managers.UDPManager - клиент с адреса /127.0.0.1:25276 отключился от сервера
+2025-05-04 13:40:08 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:08 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:11 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:11 [main] INFO  and.lab6.server.managers.UDPManager - подключился новый клиент с /127.0.0.1:11979
+2025-05-04 13:40:11 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:11 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:11 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:18 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:22 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.utility.Execute - пришла командаgenerate {count}
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:27 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.utility.Execute - пришла командаshow
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - данных слишком много, надо отправлять несколькими пакетами
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 1
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 2
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 3
+2025-05-04 13:40:31 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 4
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 5
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 6
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 7
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 8
+2025-05-04 13:40:32 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 9
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 10
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 11
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 12
+2025-05-04 13:40:33 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 13
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 14
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 15
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 16
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 17
+2025-05-04 13:40:34 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 18
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 19
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем паккет номер 20
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.SendingManager - не получилось, попробуем ещё раз
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:35 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.managers.ReceivingManager - получили запрос от клиента с /127.0.0.111979
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.utility.Execute - пришла командаclear
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.utility.Execute - команда выполнена, сформирован ответ
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.managers.SendingManager - отправляем на /127.0.0.1:11979
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.utility.Execute - ожидаем получения
+2025-05-04 13:40:45 [main] INFO  and.lab6.server.managers.ReceivingManager - Открываем порт, где ждём данные от клиента

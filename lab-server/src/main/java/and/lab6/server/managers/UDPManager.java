@@ -19,7 +19,6 @@ public class UDPManager {
     private static final Logger logger = LogManager.getLogger(UDPManager.class);
 
 
-
     /**
      * добавлять в sessions
      * если сервер сдох отправлять всем

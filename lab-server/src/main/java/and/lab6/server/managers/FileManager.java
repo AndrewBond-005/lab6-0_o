@@ -89,12 +89,12 @@ public class FileManager {
         if (!file.exists()) {
             logger.warn("Файл не существует");
 
-                try {
-                    if (file.createNewFile())
-                        logger.info("Файл " + fileName + " успешно создан");
-                } catch (IOException e) {
-                    logger.error("ошибка при создании файла!");
-                }
+            try {
+                if (file.createNewFile())
+                    logger.info("Файл " + fileName + " успешно создан");
+            } catch (IOException e) {
+                logger.error("ошибка при создании файла!");
+            }
 
         }
         if (!file.canRead()) {
@@ -217,13 +217,13 @@ public class FileManager {
         File file = new File(fileName);
         if (!file.exists()) {
             logger.error("Файл не существует");
-                try {
-                    if (file.createNewFile()) {
-                        logger.info("Файл " + fileName + " успешно создан");
-                    }
-                } catch (IOException e) {
-                    logger.error("Ошибка при создании файла!");
+            try {
+                if (file.createNewFile()) {
+                    logger.info("Файл " + fileName + " успешно создан");
                 }
+            } catch (IOException e) {
+                logger.error("Ошибка при создании файла!");
+            }
 
             return clients;
         }
