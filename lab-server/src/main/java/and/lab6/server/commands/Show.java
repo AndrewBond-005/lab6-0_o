@@ -33,8 +33,7 @@ public class Show extends Command {
         return new Response("Вот содержмое коллекции:" + '\n',
                 new ArrayList<>(collectionManager.getCollection()).stream()
                         .sorted(Comparator.comparing(Worker::getId))
-                        .sorted(Comparator.comparing(Worker::getId))
-                        .collect(Collectors.toList()), 200);
+                        .collect(Collectors.toList()), 1000);
     }
 
 }

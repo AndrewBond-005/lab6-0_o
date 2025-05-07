@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SendingManager {
-    private int maxWorkerCount = 100;
+    private int maxWorkerCount = 50;
     private static final Logger logger = LogManager.getLogger(SendingManager.class);
 
     public void send(int serverPort, InetSocketAddress clientAddress, Object object, DatagramSocket socket) throws Exception {
@@ -25,6 +25,7 @@ public class SendingManager {
                 if (((Response) object).workers().size() > maxWorkerCount) {
                     logger.info("данных слишком много, надо отправлять несколькими пакетами");
                     sendMany(serverPort, clientAddress, (Response) object, socket, maxWorkerCount);
+                    return;
                 }
             }
             // System.out.println(((Response) object).message());
@@ -46,7 +47,7 @@ public class SendingManager {
             baos.close();
         } catch (IOException e) {
             logger.info("не получилось, попробуем ещё раз");
-            Thread.sleep(100);
+            Thread.sleep(150);
             socket.send(packet);
         }
     }
@@ -68,7 +69,7 @@ public class SendingManager {
             send(serverPort, clientAddress
                     , new Response(message, w, 0), socket);
             try {
-                Thread.sleep(100);
+                Thread.sleep(150);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

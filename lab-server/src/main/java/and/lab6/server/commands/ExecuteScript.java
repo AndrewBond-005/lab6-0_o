@@ -61,7 +61,7 @@ public class ExecuteScript extends Command {
 
             Response response = command.execute(req);
 
-            message.append(response.message());
+            message.append(response.message()).append(" ");
             if (response.workers() != null) {
                 workers.addAll(response.workers());
             }

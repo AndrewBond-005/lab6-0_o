@@ -20,7 +20,7 @@ public class Execute {
     private final CommandManager commandManager;
     private final UDPManager udpManager;
     private boolean serverAvailable = false;
-    private final long RECEIVE_TIMEOUT = 100; // 100ms
+    private final long RECEIVE_TIMEOUT = 150; // 100ms
     private final CollectionManager collectionManager = new CollectionManager();
     private int packetCount = 0;
     private List<Request> requests = new ArrayList<>();
@@ -208,10 +208,13 @@ public class Execute {
     }
 
     public void answerIsResponse(Response response) {
-        //System.out.println(((Response) response).workers());
-        //System.out.println(response.returnCode());
+//        System.out.println("==="+response.message() + '\n' + "==="+
+//                ((response.workers()==null)?"0":response.workers().get(0)) + '\n' + "==="+
+//                ((response.workers()==null)?"0":response.workers().size()) + '\n' + "==="+
+//                response.returnCode());
         if (response.returnCode() < 0) {
             packetCount = -response.returnCode();
+            return;
         }
         if (response.returnCode() == 1001) {
             assert response.workers() != null;
@@ -220,14 +223,16 @@ public class Execute {
                     execute(response.workers());
             return;
         }
-        if (response.returnCode() != 200 && response.returnCode() > 0)
+        if (response.returnCode() == 1000)
+            console.print(response.message());
+       else if (response.returnCode() != 200 && response.returnCode() > 0)
             console.printError(response.message());
         else if (response.returnCode() != 0)
             console.println(response.message());
 
         if (response.workers() != null && response.returnCode() == 0) {
             if (collectionManager.getCollection().isEmpty()) {
-                console.println("Вот первые 50 элементов коллекции:");
+                console.println("Вот первые 100 элементов коллекции:");
                 for (var w : response.workers()) {
                     console.println(w);
                 }

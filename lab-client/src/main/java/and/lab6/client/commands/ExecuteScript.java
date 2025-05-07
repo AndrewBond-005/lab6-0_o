@@ -48,6 +48,7 @@ public class ExecuteScript extends Command {
     }
 
     public int execute(String arguments, boolean scriptMode) {
+        args.clear();
         var name = enterScriptName(arguments);
         if (map.get(name) == null) {
             map.put(name, 1);
@@ -135,10 +136,12 @@ public class ExecuteScript extends Command {
                         return s;
                     }
                 }
+
                 console.setFileScanner(scriptScanner);
             }
             // console.println(name+" -1"+"  №6");
             map.put(name, map.get(name) - 1);
+
             return 0;
         } catch (FileNotFoundException exception) {
             console.printError("Файл со скриптом не найден!");

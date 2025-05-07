@@ -11,7 +11,7 @@ import java.nio.channels.DatagramChannel;
 public class SendingManager {
     public void send(Object object, int serverPort, int clientPort, DatagramChannel channel) {
         try {
-            InetAddress serverAddress = InetAddress.getByName("localhost");//192.168.10.80
+            InetAddress serverAddress = InetAddress.getByName("192.168.10.80");//192.168.10.80
             // Сериализация
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ObjectOutputStream oos = new ObjectOutputStream(baos);

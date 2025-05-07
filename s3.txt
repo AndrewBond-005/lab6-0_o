@@ -1,2 +1,0 @@
-generate 30
-es s1.txt
