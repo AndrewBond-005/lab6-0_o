@@ -34,7 +34,7 @@ public class Show extends Command {
                 new ArrayList<>(collectionManager.getCollection()).stream()
                         .sorted(Comparator.comparing(Worker::getId))
                         .sorted(Comparator.comparing(Worker::getId))
-                        .collect(Collectors.toList()), 1000);
+                        .collect(Collectors.toList()), 200);
     }
 
 }

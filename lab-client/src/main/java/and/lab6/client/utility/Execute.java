@@ -20,7 +20,7 @@ public class Execute {
     private final CommandManager commandManager;
     private final UDPManager udpManager;
     private boolean serverAvailable = false;
-    private final long RECEIVE_TIMEOUT = 200; // 100ms
+    private final long RECEIVE_TIMEOUT = 100; // 100ms
     private final CollectionManager collectionManager = new CollectionManager();
     private int packetCount = 0;
     private List<Request> requests = new ArrayList<>();
@@ -208,12 +208,10 @@ public class Execute {
     }
 
     public void answerIsResponse(Response response) {
-//
+        //System.out.println(((Response) response).workers());
+        //System.out.println(response.returnCode());
         if (response.returnCode() < 0) {
             packetCount = -response.returnCode();
-        }
-        if (response.returnCode() == 1000) {
-            return;
         }
         if (response.returnCode() == 1001) {
             assert response.workers() != null;

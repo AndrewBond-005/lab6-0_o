@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SendingManager {
-    private int maxWorkerCount = 50;
+    private int maxWorkerCount = 100;
     private static final Logger logger = LogManager.getLogger(SendingManager.class);
 
     public void send(int serverPort, InetSocketAddress clientAddress, Object object, DatagramSocket socket) throws Exception {
@@ -68,7 +68,7 @@ public class SendingManager {
             send(serverPort, clientAddress
                     , new Response(message, w, 0), socket);
             try {
-                Thread.sleep(200);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

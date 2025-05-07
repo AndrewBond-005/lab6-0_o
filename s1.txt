@@ -1,2 +1,2 @@
-generate 10
-es s2.txt
+help
+info
